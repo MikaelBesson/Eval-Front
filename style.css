@@ -1,0 +1,105 @@
+body {
+
+    position: relative;
+}
+
+#photo {
+    position: absolute;
+    top: 5px;
+    left: 750px;
+    background-image: url("vad.jpg");
+    background-size: cover;
+    height: 750px;
+    width: 500px;
+}
+
+
+#presentation {
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    display: inline-block;
+    background-color: #6cec6c;
+    width: 500px;
+    height: 250px;
+}
+.present {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+#profile {
+    position: absolute;
+    top: 5px;
+    left: 535px;
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+#experience {
+    position: absolute;
+    top: 255px;
+    left: 35px;
+    display: inline-block;
+    background-color: #2b7bd0;
+    width: 250px;
+    height: 250px;
+
+}
+
+#education {
+    position: absolute;
+    top: 255px;
+    left: 285px;
+    display: inline-block;
+    background-color: #f36114;
+    width: 250px;
+    height: 250px;
+
+}
+
+#blog {
+    position: absolute;
+    top: 255px;
+    left: 535px;
+    display: inline-block;
+    background-color: #2b7bd0;
+    width: 250px;
+    height: 250px;
+}
+
+
+#social {
+    position: absolute;
+    top: 505px;
+    left: 35px;
+    display: inline-block;
+    background-color: #f36114;
+    width: 250px;
+    height: 250px;
+}
+
+#contact {
+    position: absolute;
+    top: 505px;
+    left: 285px;
+    display: inline-block;
+    background-color: #2b7bd0;
+    width: 250px;
+    height: 250px;
+}
+
+#portfolio {
+    position: absolute;
+    top: 505px;
+    left: 535px;
+    display: inline-block;
+    background-color: #f36114;
+    width: 250px;
+    height: 250px;
+}
