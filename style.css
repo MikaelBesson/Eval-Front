@@ -1,105 +1,193 @@
-body {
 
+
+
+#cadre {
     position: relative;
+    border: 5px solid lightgray;
+    width: 1250px;
+    height: 754px;
+
 }
 
-#photo {
+#img {
     position: absolute;
-    top: 5px;
-    left: 750px;
+    width: 500px;
+    height: 758px;
+    top: 13px;
+    left: 763px;
     background-image: url("vad.jpg");
     background-size: cover;
-    height: 750px;
-    width: 500px;
 }
 
-
-#presentation {
+#intro {
     position: absolute;
-    top: 5px;
-    left: 35px;
-    display: inline-block;
-    background-color: #6cec6c;
     width: 500px;
     height: 250px;
-}
-.present {
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    font-size: 40px;
+    top: 13px;
+    left: 13px;
+    background-color: black;
+    border: 2px solid red;
     color: white;
 }
 
-#profile {
+span {
     position: absolute;
-    top: 5px;
-    left: 535px;
-    display: inline-block;
-    background-color: red;
-    width: 250px;
-    height: 250px;
+    font-size: xx-large;
+    top: 15px;
+    left: 30px;
 }
 
-#experience {
+p {
     position: absolute;
-    top: 255px;
-    left: 35px;
-    display: inline-block;
-    background-color: #2b7bd0;
-    width: 250px;
-    height: 250px;
-
+    font-size: larger;
+    top: 50px;
+    left: 30px;
 }
 
-#education {
-    position: absolute;
-    top: 255px;
-    left: 285px;
-    display: inline-block;
-    background-color: #f36114;
-    width: 250px;
-    height: 250px;
-
+.intro {
+    position: relative;
+    display: inline;
+    top: 150px;
+    left: 30px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 20px;
 }
 
-#blog {
+.profile {
     position: absolute;
-    top: 255px;
-    left: 535px;
-    display: inline-block;
-    background-color: #2b7bd0;
+    background-color: black;
+    border: 2px solid red;
     width: 250px;
     height: 250px;
+    top: 13px;
+    left: 513px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
 }
 
+#p1 {
+    position: relative;
+    top: 80px;
+}
 
-#social {
+.expe {
     position: absolute;
-    top: 505px;
-    left: 35px;
-    display: inline-block;
-    background-color: #f36114;
+    background-color: black;
+    border: 2px solid red;
     width: 250px;
     height: 250px;
+    top: 263px;
+    left: 13px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
 }
 
-#contact {
-    position: absolute;
-    top: 505px;
-    left: 285px;
-    display: inline-block;
-    background-color: #2b7bd0;
-    width: 250px;
-    height: 250px;
+#e1 {
+    position: relative;
+    top: 80px;
 }
 
-#portfolio {
+.educ {
     position: absolute;
-    top: 505px;
-    left: 535px;
-    display: inline-block;
-    background-color: #f36114;
+    background-color: black;
+    border: 2px solid red;
     width: 250px;
     height: 250px;
+    top: 263px;
+    left: 263px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
 }
+
+#e2 {
+    position: relative;
+    top: 80px;
+}
+
+.blog {
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
+    top: 263px;
+    left: 513px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#b1 {
+    position: relative;
+    top: 80px;
+}
+
+.social {
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
+    top: 513px;
+    left: 13px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#s1 {
+    position: relative;
+    top: 80px;
+}
+
+.contact {
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
+    top: 513px;
+    left:263px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#c1 {
+    position: relative;
+    top: 80px;
+}
+
+.folio {
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
+    top: 513px;
+    left:513px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#f1 {
+    position: relative;
+    top: 80px;
+}
+
+a:hover {
+    color: red;
+    background-image: url("sabre.jpg");
+    background-size: cover;
+
+ }
+
+
+
+
