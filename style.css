@@ -181,6 +181,26 @@ p {
     top: 80px;
 }
 
+button {
+    border-style: dashed;
+    border-radius: 90px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+#bt1 {
+    position: absolute;
+    right: 500px;
+    top: 380px;
+}
+
+#bt2 {
+    position: absolute;
+    right: 60px;
+    top: 380px;
+}
+
 a:hover {
     color: red;
     background-image: url("sabre.jpg");
