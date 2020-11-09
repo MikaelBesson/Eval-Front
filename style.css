@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 
 #cadre {
     position: relative;
@@ -63,7 +64,9 @@ b {
 
 p {
     position: absolute;
-    font-size: larger;
+    font-size: medium;
+    font-family: 'Goldman', cursive;
+    padding: 5px;
     top: 50px;
     left: 30px;
 }
@@ -72,7 +75,6 @@ span {
     font-family: 'Keania One', cursive;
     text-decoration: underline red;
     text-shadow: 10px 10px 10px rgb(233, 8, 8);
-
 }
 
 .intro {
@@ -212,8 +214,6 @@ span {
     position: relative;
     top: 80px;
 }
-
-
 
 a:hover {
     color: red;
